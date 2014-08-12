@@ -1,0 +1,56 @@
+@font-face {
+	font-family: '33535gillsansmt';
+	src: url('./33535gillsansmt.eot');
+	src: local('33535gillsansmt'), url('./33535gillsansmt.woff') format('woff'), url('./33535gillsansmt.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_1416">Text with this font applied</p> */
+.fontsforweb_fontid_1416 {
+	font-family: '33535gillsansmt' !important;
+}
+
+
+
+html, body {
+  height: 100%;
+  overflow-x: hidden;}
+
+.jsc-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 262px;
+  height: 100%; }
+
+.jsc-sidebar-content {
+  position: relative;
+  top: 0;
+  left: 0;
+  height:auto;
+  
+  z-index: 10;
+  background-color: #FFF; }
+
+.jsc-sidebar-pulled {
+  -webkit-transition: -webkit-transform 0.5s ease;
+  -moz-transition: -moz-transform 0.5s ease;
+  -ms-transition: -ms-transform 0.5s ease;
+  -o-transition: -o-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000; }
+
+.jsc-sidebar-pushed {
+  -webkit-transform: translate3d(270px, 0, 0);
+  -moz-transform: translate3d(270px, 0, 0);
+  -ms-transform: translate3d(270px, 0, 0);
+  -o-transform: translate3d(270px, 0, 0);
+  transform: translate3d(270px, 0, 0); }
+
+.jsc-sidebar-scroll-disabled {
+  position: fixed;
+  overflow: hidden; }

@@ -1,0 +1,43 @@
+/* For generic page styles. Not for sliders. */
+
+@font-face {
+	font-family: '33535gillsansmt';
+	src: url('./33535gillsansmt.eot');
+	src: local('33535gillsansmt'), url('./33535gillsansmt.woff') format('woff'), url('./33535gillsansmt.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_1416">Text with this font applied</p> */
+.fontsforweb_fontid_1416 {
+	font-family: '33535gillsansmt' !important;
+}
+
+
+
+
+body {
+	background:#fff;
+	font:normal 0.9em '33535gillsansmt';
+	margin:0;
+	padding-bottom:0px;
+	padding-top: 0;
+	padding-right: 0;
+	padding-left: 0;
+	font-family:'33535gillsansmt';
+}
+h2 {display:inline;}
+.div1, .div2 {width:700px;margin:0 auto;}
+.div1 {margin-top:30px;margin-bottom:60px;text-align:center;line-height:20px;}
+.div1 P {font-size:18px;}
+.div1 a, .div2 a {color:#07C; }
+.div1 a {margin:0 8px;}
+.div1 a.current {color:black; text-decoration:none;}
+.div2 {margin-top:70px;}
+.div2 li {padding-top:6px;padding-bottom:6px;}
+.green {color:Green;}
+.cn {font-family:'33535gillsansmt';}
+#status {display:inline-block; margin-left:26px;line-height:50px;height:50px;vertical-align:middle;}
+
+.code
+{
+    border: dashed 1px #BCBCCB; padding:8px 12px; background-color: #F3F3F9; white-space:pre; font-family:'33535gillsansmt';
+    font-size:12px; margin:6px 0;overflow:auto; 
+}
